@@ -509,7 +509,7 @@ a:focus {
 }
 
 .feature .feature-item {
-    min-height: 250px;
+    min-height: 511px;
     padding: 30px;
     display: flex;
     align-items: center;
