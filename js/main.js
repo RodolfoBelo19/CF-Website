@@ -6,15 +6,38 @@
     
     
     // Back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            $('.back-to-top').fadeIn('slow');
-        } else {
-            $('.back-to-top').fadeOut('slow');
-        }
-    });
-    $('.back-to-top').click(function () {
+
+    $('.top1').click(function () {
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        return false;
+    });
+
+     // To about button
+
+     $('#about-btn').click(function () {
+        $('html, body').animate({scrollTop: ($(".about").offset().top - 70)}, 1500, 'easeInOutExpo');
+        return false;
+    });
+
+
+     // To team button
+
+    $('#team-btn').click(function () {
+        $('html, body').animate({scrollTop: ($(".team").offset().top - 70)}, 1500, 'easeInOutExpo');
+        return false;
+    });
+
+     // To products button
+
+     $('#products-btn').click(function () {
+        $('html, body').animate({scrollTop: ($(".service").offset().top - 70)}, 1500, 'easeInOutExpo');
+        return false;
+    });
+
+     // To contact button
+     
+    $('#contact-btn').click(function () {
+        $('html, body').animate({scrollTop: $(".footer-link").offset().top}, 1500, 'easeInOutExpo');
         return false;
     });
     
