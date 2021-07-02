@@ -474,7 +474,6 @@ a:focus {
     color: #fdbe33;
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 5px;
 }
 
 .section-header h2 {
@@ -710,7 +709,7 @@ a:focus {
 
 
 /*******************************/
-/********* Service CSS *********/
+/********* Product CSS *********/
 /*******************************/
 .service {
     position: relative;
@@ -718,39 +717,37 @@ a:focus {
     padding: 45px 0 15px 0;
 }
 
-.service .service-item {
+.service .wrapper {
+    width: 1200px;
+    padding: 0;
+}
+
+.service .row {
     position: relative;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.service .service-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.service .service-img img {
-    width: 100%;
-}
-
-.service .service-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    padding: 30px;
-    display: flex;
-    align-items: center;
+    margin-inline: auto;
     justify-content: center;
-    background: rgba(3, 15, 39, .7);
-    transition: .5s;
-    opacity: 0;
 }
 
-.service .service-item:hover .service-overlay {
-    opacity: 1;
+.service .row .card {
+    width: 232px;
+    height: 380px;
+}
+
+.service .row .card .card-header {
+    background-color: #fff;
+}
+
+
+.service .row .card .card-footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.service .row .card .card-footer h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 .service .service-overlay p {
