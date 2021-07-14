@@ -2,19 +2,26 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #666666;
-    background: #0e0d0d;
+    color: #dddddd;
+    background: #2e2e2e !important;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
 h1,
-h2, 
 h3, 
 h4,
 h5, 
 h6 {
-    color: #030f27;
+    color: #666666;
+}
+
+h2 {
+    color: #f1f1f1;
+}
+
+small {
+    color: #888;
 }
 
 a {
@@ -39,7 +46,7 @@ a:focus {
     width: 100%;
     /* max-width: 1366px; */
     margin: 0 auto;
-    background: #ffffff;
+    background: #111111;
 }
 
 .back-to-top {
@@ -119,7 +126,6 @@ a:focus {
 .top-bar .top-bar-item {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
 }
 
 .top-bar .top-bar-icon {
