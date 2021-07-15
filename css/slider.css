@@ -125,9 +125,16 @@
   background-color: black;
 }
 
-@media (max-width: 1152px) {
+@media (max-width: 1280px) {
+  .product-slider-container {
+    margin-inline: auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
   .product-card {
-    width: 370px;
+    width: 260px;
   }
 }
 
@@ -138,8 +145,14 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .product-card {
-    width: 100vw;
+    width: 296px;
+  }
+}
+
+@media (max-width: 360px) {
+  .product-card {
+    width: 256px;
   }
 }
