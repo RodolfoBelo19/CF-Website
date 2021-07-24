@@ -19,6 +19,13 @@
         return false;
     });
 
+    // To our space button
+
+    $('#ourspace-btn').click(function () {
+        $('html, body').animate({scrollTop: ($(".ourspace").offset().top - 120)}, 1500, 'easeInOutExpo');
+        return false;
+    });
+
 
      // To team button
 
