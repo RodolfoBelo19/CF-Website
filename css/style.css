@@ -992,8 +992,8 @@ a:focus {
 @media (max-width: 527px) {
     .team .team-wrapper .team-item,
     .team .team-wrapper .member-div {
-        height: 216px;
-        width: 120px;
+        height: 290px;
+        width: 175px;
         margin: 0 auto;
     }
 
@@ -1006,8 +1006,8 @@ a:focus {
     }
 
     .team .team-wrapper .team-item img {
-        height: 160px;
-        width: 120px;
+        height: 100%;
+        width: 100%;
     }
 
     .team .team-wrapper .member-div .team-text {
@@ -1017,6 +1017,18 @@ a:focus {
     .team .team-wrapper .member-div .team-text h2,
     .team .team-wrapper .member-div .team-text p {
         font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 469px) {
+    .team .team-wrapper .team-item,
+    .team .team-wrapper .member-div {
+        height: 260px;
+        width: 145px;
+    }
+
+    .team .team-wrapper .member-div {
+        width: auto;
     }
 }
 
